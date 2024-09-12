@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|c:\\users\\i5469\\source\\repos\\ltg_mvc\\ltg_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|solutionrelative:ltg_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|c:\\users\\i5469\\source\\repos\\ltg_mvc\\ltg_mvc\\services\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|solutionrelative:ltg_mvc\\services\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|c:\\users\\i5469\\source\\repos\\ltg_mvc\\ltg_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|solutionrelative:ltg_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|c:\\users\\i5469\\source\\repos\\ltg_mvc\\ltg_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|solutionrelative:ltg_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|c:\\users\\i5469\\source\\repos\\ltg_mvc\\ltg_mvc\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2680D03D-3F9B-4388-846E-4AF4A1A24849}|LTG_MVC\\LTG_MVC.csproj|solutionrelative:ltg_mvc\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FIleController.cs",
+              "DocumentMoniker": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Controllers\\FIleController.cs",
+              "RelativeDocumentMoniker": "LTG_MVC\\Controllers\\FIleController.cs",
+              "ToolTip": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Controllers\\FIleController.cs",
+              "RelativeToolTip": "LTG_MVC\\Controllers\\FIleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:34:17.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LTG_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LTG_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAAACMBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:32:12.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PdfGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Services\\PdfGenerator.cs",
+              "RelativeDocumentMoniker": "LTG_MVC\\Services\\PdfGenerator.cs",
+              "ToolTip": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Services\\PdfGenerator.cs",
+              "RelativeToolTip": "LTG_MVC\\Services\\PdfGenerator.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAApwIwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:21:32.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LTG_MVC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LTG_MVC\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-12T04:21:04.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "LTG_MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\I5469\\source\\repos\\LTG_MVC\\LTG_MVC\\Program.cs",
+              "RelativeToolTip": "LTG_MVC\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:52:28.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LTG_MVC.props" />
+</Project>

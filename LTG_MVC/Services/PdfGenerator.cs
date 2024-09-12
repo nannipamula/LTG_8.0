@@ -21,7 +21,7 @@ namespace Template.Services
         {
             try
             {
-                string filePath = Path.Combine(filepath, filename + ".pdf");
+                string filePath = Path.Combine(filepath, filename + ".pdf").Replace(" ","");
                 if (File.Exists(filePath))
                 {
                     int counter = 1;

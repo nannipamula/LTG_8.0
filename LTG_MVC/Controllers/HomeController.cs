@@ -76,8 +76,7 @@ namespace Template.Controllers
         [HttpPost]
         public IActionResult Index(string content, string templaneName, string moduleName)
         {
-
-            var filePath = _webHostEnvironment.WebRootPath + $"/Templates/{templaneName}.html";
+            var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Templates", $"{templaneName}.html");
             System.IO.File.WriteAllText(filePath, content);
             ViewBag.TemplatePath = moduleName;
             return View();
@@ -351,10 +350,10 @@ namespace Template.Controllers
                     string emailId = attributesDictionary["${Email Id}"];
 
                     // Save PDF to file
-                    pdfPath = Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf.pdf");
+                    pdfPath = Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf.pdf").Replace(" ", "");
                     _pdfGenerator.GeneratorPdf(
                                                 html,
-                                                Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs"),
+                                                Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs").Replace(" ", ""),
                                                 $"{fileName}_{templateName}.pdf",
                                                 pageOrientation,
                                                 finalPwdPattern,
@@ -459,7 +458,7 @@ namespace Template.Controllers
 
             _pdfGenerator.GeneratorPdf(
                                         htmlContentFromEditModule,
-                                        Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs"),
+                                        Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs").Replace(" ", ""),
                                         $"{fileName}_{templateName}.pdf", // Ensure the file name has a .pdf extension
                                         "",
                                         finalPwdPattern,
@@ -472,7 +471,7 @@ namespace Template.Controllers
             {
                 //Thread.Sleep(5000);
                 _pdfGenerator.setPassword(
-                                            Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf"),
+                                            Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf").Replace(" ", ""),
                                             finalPwdPattern,
                                             emailId,
                                             templateRawPwd
@@ -484,7 +483,7 @@ namespace Template.Controllers
                 //EmailSender emailSender = new EmailSender();
                 //emailSender.SendEmail(emailId, "No Password for PDF File", Path.Combine(_webHostEnvironment.WebRootPath,"LetterGeneratorPdfs",$"{fileName}_{templateName}.pdf"));
             }
-            string pdfPath = Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf.pdf");
+            string pdfPath = Path.Combine(_webHostEnvironment.WebRootPath, "LetterGeneratorPdfs", $"{fileName}_{templateName}.pdf.pdf").Replace(" ", "");
             using (var fileStream = new FileStream(pdfPath, FileMode.Open, FileAccess.Read))
             {
                 fileStream.CopyTo(memoryStream);
